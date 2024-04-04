@@ -1,0 +1,9 @@
+#quiz7 함수처리
+def print_taller_than_170(heights):
+    for height in heights:
+        if height <= 170:
+            continue
+        print("키가 170보다 큰 학생:", height)
+
+heights = [165, 172, 168, 175, 160, 180, 169, 171, 177, 163]
+print_taller_than_170(heights)  # 함수 호출
