@@ -1,6 +1,0 @@
-tall = (177, 146, 168, 189, 160, 164, 185, 174, 194, 188)
-
-for tall in tall:
-    if tall <= 170:
-        continue
-    print(tall, "cm")
