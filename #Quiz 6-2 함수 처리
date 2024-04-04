@@ -1,0 +1,17 @@
+#Quiz 6-2 함수 처리
+import datetime
+
+def print_current_date_and_time():
+    x = datetime.datetime.now()
+    weekday_index = x.weekday()
+    weekdays = ["월", "화", "수", "목", "금", "토", "일"]
+
+    print(x.year, "년")
+    print(x.month, "월")
+    print(x.day, "일")
+    print(weekdays[weekday_index], "요일")
+    print(x.hour, "시")
+    print(x.minute, "분")
+    print(x.second, "초")
+
+print_current_date_and_time()  # 함수 호출
