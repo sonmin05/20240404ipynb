@@ -1,0 +1,7 @@
+# Quiz 3
+
+horizontal_stars = '★★★'
+vertical_repeats = '★★★★' 
+
+for i in vertical_repeats:
+  print(horizontal_stars)
