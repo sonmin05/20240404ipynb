@@ -1,0 +1,16 @@
+#Quiz 5 - 1  함수처리
+import math
+
+def calculate_cylinder_volume(R, h):
+    result = (math.pi * (R * R)) * h
+    return round(result, 3)
+
+def main():
+    R = int(input("반지름을 설정해주세요: "))
+    h = int(input("높이를 설정해주세요: "))
+
+    result = calculate_cylinder_volume(R, h)
+    print(result)
+
+if __name__ == "__main__":
+    main()
