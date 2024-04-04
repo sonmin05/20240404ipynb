@@ -1,0 +1,10 @@
+#Quiz 5 - 1 
+import math
+ 
+R = int(input("반지름을 설정해주세요 "))
+h = int(input("높이를 설정해주세요 "))
+
+Result = (math.pi * (R*R)) * h 
+R_R = round(Result, 3) 
+
+print(R_R)
