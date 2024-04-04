@@ -1,0 +1,9 @@
+# Quiz 3 함수처리
+def print_stars(vertical_repeats, horizontal_stars):
+    for _ in vertical_repeats:
+        print(horizontal_stars)
+
+horizontal_stars = '★★★'
+vertical_repeats = '★★★★'
+
+print_stars(vertical_repeats, horizontal_stars)  # 함수 호출
