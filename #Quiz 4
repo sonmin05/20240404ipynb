@@ -1,0 +1,8 @@
+#Quiz 4
+
+star = '*'
+
+horizental_stars = star * 3
+
+for i in range(4):
+  print(horizental_stars)
