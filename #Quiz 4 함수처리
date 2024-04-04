@@ -1,0 +1,9 @@
+#Quiz 4 함수처리
+def print_stars(horizental_stars, repetitions):
+    for _ in range(repetitions):
+        print(horizental_stars)
+
+star = '*'
+horizental_stars = star * 3
+
+print_stars(horizental_stars, 4)  # 함수 호출
