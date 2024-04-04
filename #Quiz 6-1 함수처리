@@ -1,0 +1,8 @@
+#Quiz 6-1 함수처리
+import datetime
+
+def print_current_time():
+    x = datetime.datetime.now()
+    print(x)
+
+print_current_time()  # 함수 호출
