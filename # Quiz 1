@@ -1,0 +1,7 @@
+# Quiz 1
+
+a = '★'
+
+for i in range(3):
+  for j in range(1):
+    print(a * 4)
